@@ -1,15 +1,17 @@
 <template>
   <div class="bg-gray-900 p-6" id="technologies">
     <h1 class="text-4xl text-center mb-8 text-gray-300 font-semibold">Technologies</h1>
-    <div class="flex flex-col md:flex-row md:justify-around mb-10">
-      <TechnologyList
-        title="Frontend"
-        :technologies="frontendTechnologies"
-      />
-      <TechnologyList
-        title="Backend"
-        :technologies="backendTechnologies"
-      />
+    <div class="flex flex-col mb-10">
+      <div class="max-w-5xl mx-auto">
+        <TechnologyList
+          title="Frontend"
+          :technologies="frontendTechnologies"
+        />
+        <TechnologyList
+          title="Backend"
+          :technologies="backendTechnologies"
+        />
+      </div>
     </div>
   </div>
 </template>
