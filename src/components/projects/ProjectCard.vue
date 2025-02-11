@@ -13,6 +13,12 @@
       ">
         View Project
       </a>
+      &nbsp;
+      <a :href="repo" target="_blank" class="inline-block bg-white text-green-500 px-3 py-2 rounded font-semibold
+        hover:bg-gray-200 transition-colors
+      ">
+        Repo
+      </a>
     </div>
   </div>
 </template>
@@ -23,6 +29,7 @@
     description: string;
     image: string;
     link: string;
+    repo: string;
   }
 
   defineProps<Props>();
