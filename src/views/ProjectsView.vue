@@ -6,13 +6,13 @@
         title="Tail News"
         description="An advanced news app created using an extarnal api (NewsApi), using backend as a service (firebase), also using tailwind for styling and dark mode and react with typescript for user interface "
         :image="TailNews"
-        link="tail-news-rho.vercel.app/"
+        link="https://tail-news-rho.vercel.app/"
       />
       <ProjectCard
         title="World's Ranks"
         description="React app for exploring countries with advanced filters and search, using and external API."
         :image="WorldRank"
-        link="world-ranks-livid-eight.vercel.app/"
+        link="https://world-ranks-livid-eight.vercel.app/"
       />
       <ProjectCard
         title="Memorama Game with pure CSS"
